@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Build Java 8 projects
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/cache@v2.1.8
+    - uses: actions/checkout@v4
+    - uses: actions/cache@v4
       with:
         path: ~/.m2/repository
         key: ${{ runner.os }}-maven-jdk8-${{ hashFiles('**/pom.xml') }}
