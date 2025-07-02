@@ -12,7 +12,7 @@
   "commitBodyTable": true,
   "rebaseWhen": "auto",
   "repositories": [
-    "PlaytikaOSS/testcontainers-spring-boot"
+    "GlamourOff/testcontainers-spring-boot"
   ],
   "enabledManagers": [
     "regex"
